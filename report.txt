@@ -1,0 +1,84 @@
+Rows with missing values:
+     Series_reference   Period  Data_value Suppressed STATUS    UNITS  \
+0       BDCQ.SF1AA2CA  2016.06    1116.386        NaN      F  Dollars   
+1       BDCQ.SF1AA2CA  2016.09    1070.874        NaN      F  Dollars   
+2       BDCQ.SF1AA2CA  2016.12    1054.408        NaN      F  Dollars   
+3       BDCQ.SF1AA2CA  2017.03    1010.665        NaN      F  Dollars   
+4       BDCQ.SF1AA2CA  2017.06    1233.700        NaN      F  Dollars   
+...               ...      ...         ...        ...    ...      ...   
+8350     BDCQ.SF8RSCA  2023.12     511.098        NaN      F  Dollars   
+8351     BDCQ.SF8RSCA  2024.03     631.229        NaN      F  Dollars   
+8352     BDCQ.SF8RSCA  2024.06     542.409        NaN      F  Dollars   
+8353     BDCQ.SF8RSCA  2024.09     612.190        NaN      F  Dollars   
+8354     BDCQ.SF8RSCA  2024.12     643.976        NaN      F  Dollars   
+
+      Magnitude                         Subject  \
+0             6  Business Data Collection - BDC   
+1             6  Business Data Collection - BDC   
+2             6  Business Data Collection - BDC   
+3             6  Business Data Collection - BDC   
+4             6  Business Data Collection - BDC   
+...         ...                             ...   
+8350          6  Business Data Collection - BDC   
+8351          6  Business Data Collection - BDC   
+8352          6  Business Data Collection - BDC   
+8353          6  Business Data Collection - BDC   
+8354          6  Business Data Collection - BDC   
+
+                                                Group  \
+0     Industry by financial variable (NZSIOC Level 2)   
+1     Industry by financial variable (NZSIOC Level 2)   
+2     Industry by financial variable (NZSIOC Level 2)   
+3     Industry by financial variable (NZSIOC Level 2)   
+4     Industry by financial variable (NZSIOC Level 2)   
+...                                               ...   
+8350  Industry by financial variable (NZSIOC Level 1)   
+8351  Industry by financial variable (NZSIOC Level 1)   
+8352  Industry by financial variable (NZSIOC Level 1)   
+8353  Industry by financial variable (NZSIOC Level 1)   
+8354  Industry by financial variable (NZSIOC Level 1)   
+
+                Series_title_1                       Series_title_2  \
+0     Sales (operating income)                 Forestry and Logging   
+1     Sales (operating income)                 Forestry and Logging   
+2     Sales (operating income)                 Forestry and Logging   
+3     Sales (operating income)                 Forestry and Logging   
+4     Sales (operating income)                 Forestry and Logging   
+...                        ...                                  ...   
+8350          Operating profit  Arts, Recreation and Other Services   
+8351          Operating profit  Arts, Recreation and Other Services   
+8352          Operating profit  Arts, Recreation and Other Services   
+8353          Operating profit  Arts, Recreation and Other Services   
+8354          Operating profit  Arts, Recreation and Other Services   
+
+      Series_title_3 Series_title_4  Series_title_5  
+0     Current prices     Unadjusted             NaN  
+1     Current prices     Unadjusted             NaN  
+2     Current prices     Unadjusted             NaN  
+3     Current prices     Unadjusted             NaN  
+4     Current prices     Unadjusted             NaN  
+...              ...            ...             ...  
+8350         Current     Unadjusted             NaN  
+8351         Current     Unadjusted             NaN  
+8352         Current     Unadjusted             NaN  
+8353         Current     Unadjusted             NaN  
+8354         Current     Unadjusted             NaN  
+
+[8355 rows x 14 columns]
+
+ Unique entry counts per column:
+Series_reference     240
+Period                35
+Data_value          6194
+Suppressed             1
+STATUS                 3
+UNITS                  1
+Magnitude              1
+Subject                1
+Group                  2
+Series_title_1         4
+Series_title_2        31
+Series_title_3         2
+Series_title_4         3
+Series_title_5         0
+dtype: int64
